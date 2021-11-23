@@ -23,6 +23,8 @@
 
     <title>ELectronica Richard Parker xd</title>
         <h1>Formulario de datos</h1>
+<%-- Se enviara como parametro la página resultada para que se redireccione y nos muestre
+ el contenido de esa página --%>
         <form action="Resultado.jsp" method="post">
             Producto: <select name="selecPro">
                 <option value="Televisor">Televisor</option>
